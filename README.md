@@ -49,8 +49,9 @@ Future Enhancements: Currently, security for authentication has not been impleme
 Follow the steps below to set up and run the application locally.
 
 1️⃣ Clone the Repository
-git clone <repository-url>
-cd <project-folder>
+
+git clone "repository-url"
+cd "project-folder"
 
 Back-End Setup (Spring Boot)
 
@@ -60,9 +61,9 @@ CREATE DATABASE online_library;
 
 Update your application.properties file with your MySQL credentials:
 properties
-spring.datasource.url=jdbc:mysql://localhost:3306/online_library
-spring.datasource.username=your_username
-spring.datasource.password=your_password
+- spring.datasource.url=jdbc:mysql://localhost:3306/online_library
+- spring.datasource.username=your_username
+- spring.datasource.password=your_password
 
 3️⃣ Start the Back-End
 From the backend directory:
