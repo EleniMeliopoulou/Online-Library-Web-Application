@@ -44,7 +44,48 @@ Future Enhancements: Currently, security for authentication has not been impleme
 
 * Java Development Kit (JDK) 17 or higher
 * Node.js and npm (or Yarn)
-* MySQL 
+* MySQL
+
+Follow the steps below to set up and run the application locally.
+
+1️⃣ Clone the Repository
+git clone <repository-url>
+cd <project-folder>
+
+Back-End Setup (Spring Boot)
+
+2️⃣ Database Configuration
+Create a new MySQL database, for example:
+CREATE DATABASE online_library;
+
+Update your application.properties file with your MySQL credentials:
+properties
+spring.datasource.url=jdbc:mysql://localhost:3306/online_library
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+3️⃣ Start the Back-End
+From the backend directory:
+mvn spring-boot:run
+
+4️⃣ Import Book Data
+Before any books appear in the system, you must call the following endpoint:
+GET http://localhost:8080/import-books
+This loads the book data from the CSV file into the database.
+
+Front-End Setup (React + Vite)
+
+5️⃣ Install Dependencies
+From the frontend directory:
+npm install
+
+6️⃣ Start the Front-End
+npm run dev
+The application will be available at:
+http://localhost:5173
+
+Connecting Front-End & Back-End
+Ensure the backend is running on http://localhost:8080 and that the frontend is configured to send API requests to this URL (via .env or directly in your service files).
 
 ---
 
