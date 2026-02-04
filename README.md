@@ -51,8 +51,8 @@ Follow the steps below to set up and run the application locally.
 1️⃣ Clone the Repository
 
 ```bash
-git clone "repository-url"
-cd "project-folder"
+git clone https://github.com/EleniMeliopoulou/Online-Library-Web-Application.git
+cd Online-Library-Web-Application
 ```
 
 ### Back-End Setup (Spring Boot)
