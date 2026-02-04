@@ -76,8 +76,11 @@ mvn spring-boot:run
 ```
 
 4️⃣ Import Book Data
+
 Before any books appear in the system, you must call the following endpoint:
+
 GET http://localhost:8080/import-books
+
 This loads the book data from the CSV file into the database.
 
 ### Front-End Setup (React + Vite)
@@ -96,6 +99,7 @@ The application will be available at:
 http://localhost:5173
 
 Connecting Front-End & Back-End
+
 Ensure the backend is running on http://localhost:8080 and that the frontend is configured to send API requests to this URL (via .env or directly in your service files).
 
 ---
