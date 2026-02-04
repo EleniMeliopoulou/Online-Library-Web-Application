@@ -103,7 +103,7 @@ The application will be available at:
 
 http://localhost:5173
 
-Connecting Front-End & Back-End
+### Connecting Front-End & Back-End
 
 Ensure the backend is running on http://localhost:8080 and that the frontend is configured to send API requests to this URL (via .env or directly in your service files).
 
