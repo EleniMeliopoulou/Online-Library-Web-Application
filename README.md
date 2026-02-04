@@ -49,6 +49,7 @@ Future Enhancements: Currently, security for authentication has not been impleme
 Follow the steps below to set up and run the application locally.
 
 1️⃣ Clone the Repository
+
 ```bash
 git clone "repository-url"
 cd "project-folder"
@@ -57,6 +58,7 @@ cd "project-folder"
 ### Back-End Setup (Spring Boot)
 
 2️⃣ Database Configuration
+
 Create a new MySQL database, for example:
 ```
 CREATE DATABASE online_library;
@@ -70,6 +72,7 @@ Update your application.properties file with your MySQL credentials:
 ```
 
 3️⃣ Start the Back-End
+
 From the backend directory:
 ```bash
 mvn spring-boot:run
@@ -86,6 +89,7 @@ This loads the book data from the CSV file into the database.
 ### Front-End Setup (React + Vite)
 
 5️⃣ Install Dependencies
+
 From the frontend directory:
 ```bash
 npm install
@@ -96,6 +100,7 @@ npm install
 npm run dev
 ```
 The application will be available at:
+
 http://localhost:5173
 
 Connecting Front-End & Back-End
