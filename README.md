@@ -66,15 +66,16 @@ CREATE DATABASE online_library;
 
 Update your application.properties file with your MySQL credentials:
 ```properties
-- spring.datasource.url=jdbc:mysql://localhost:3306/online_library
-- spring.datasource.username=your_username
-- spring.datasource.password=your_password
+spring.datasource.url=jdbc:mysql://localhost:3306/online_library
+spring.datasource.username=your_username
+spring.datasource.password=your_password
 ```
 
 3️⃣ Start the Back-End
 
 From the backend directory:
 ```bash
+cd backend
 mvn spring-boot:run
 ```
 
@@ -92,6 +93,7 @@ This loads the book data from the CSV file into the database.
 
 From the frontend directory:
 ```bash
+cd frontend
 npm install
 ```
 
