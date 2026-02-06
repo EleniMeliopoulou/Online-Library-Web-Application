@@ -12,9 +12,9 @@ Future Enhancements: Currently, security for authentication has not been impleme
 
 * **User Authentication:** User registration, login, and logout functionalities.
 * **User Profile Management:** Users can update their personal information (e.g., username).
-* **Book Catalog:** Display a comprehensive list of books with details like Title, Author, Category, Publication Year, Ratings, and Description.
+* **Book Catalog:** Display a comprehensive list of books with details like Title, Author, Category, Publication Date, Ratings, and Description.
 * **Categorized Browse:** Books are displayed in organized categories for easy navigation.
-* **Search Functionality:** Efficient search to find books by keywords.
+* **Search Functionality:** Efficient search to find books by titles.
 * **Borrowing System:**
     * Users can borrow books with a click of a button.
     * A maximum limit of 5 borrowed books per user is enforced.
@@ -28,11 +28,11 @@ Future Enhancements: Currently, security for authentication has not been impleme
 
 * **Back-End:**
     * Java
-    * Spring Boot (Framework)
+    * Spring Boot 
     * RESTful API design
 * **Front-End:**
-    * React (with Vite for fast development)
-    * CSS (for styling)
+    * React with Vite 
+    * CSS 
 * **Database:**
   * MySQL 
 
@@ -43,7 +43,7 @@ Future Enhancements: Currently, security for authentication has not been impleme
 ### Prerequisites
 
 * Java Development Kit (JDK) 17 or higher
-* Node.js and npm (or Yarn)
+* Node.js and npm
 * MySQL
 
 Follow the steps below to set up and run the application locally.
