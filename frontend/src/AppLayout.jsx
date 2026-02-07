@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link, Outlet, useNavigate } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
 import './App.css';
 
 function AppLayout() {
@@ -150,6 +149,7 @@ export default AppLayout;
 
 
        
+
 
 
 
