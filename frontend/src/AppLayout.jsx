@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link, Outlet, useNavigate } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 import './App.css';
 
 function AppLayout() {
@@ -89,7 +90,7 @@ const handleSearchClick = () => {
                     <strong>Logout</strong>
                   </button>
                   <button className="menuButton" onClick={toggleMenu}>
-                   <i className="fa-solid fa-bars alt-icon"></i>
+                   <FaBars size={24} />
                   </button>
                   <Link to="/profile" className="userButton">
                     <i className="bi bi-person big-icon"></i>
@@ -149,4 +150,5 @@ export default AppLayout;
 
 
        
+
 
