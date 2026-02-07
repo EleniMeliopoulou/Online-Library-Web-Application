@@ -95,6 +95,7 @@ From the frontend directory:
 ```bash
 cd frontend
 npm install
+npm install react-router-dom
 ```
 
 6️⃣ Start the Front-End
