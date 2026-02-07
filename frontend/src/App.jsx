@@ -10,22 +10,23 @@ import LoginSignup from "./LoginSignup";
 import MyBorrowedBooks from "./pages/MyBorrowedBooks";
 import Profile from "./pages/Profile";
 
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<LoginSignup />} />
-        <Route path="/" element={<AppLayout />}/>
-          <Route path="home" element={<><Home /> <BooksByGenre groupByGenre={true} /></>} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="results/:title" element={<BookInformation />} />
-          <Route path="mylist" element={<MyBorrowedBooks />} />
-          <Route path="profile" element={<Profile />} />
-        </Route>
-      </Routes>
-    </Router>
-  );
-}
+function App() { 
+  return ( 
+    <Router> 
+      <Routes> 
+        <Route path="/" element={<LoginSignup />} /> 
+        <Route path="/" element={<AppLayout />}> 
+          <Route path="home" element={<><Home /> <BooksByGenre groupByGenre={true} /></>} /> 
+          <Route path="about" element={<About />} /> 
+          <Route path="contact" element={<Contact />} /> 
+          <Route path="results/:title" element={<BookInformation />} /> 
+          <Route path="mylist" element={<MyBorrowedBooks />} /> 
+          <Route path="profile" element={<Profile />} /> 
+        </Route> 
+      </Routes> 
+    </Router> 
+  ); 
+} 
 
 export default App;
+
