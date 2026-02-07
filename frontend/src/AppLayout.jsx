@@ -92,7 +92,7 @@ const handleSearchClick = () => {
                    <i className="fa-solid fa-bars alt-icon"></i>
                   </button>
                   <Link to="/profile" className="userButton">
-                    <i className="bi bi-person big-icon"></i>
+                    <i class="fa-regular fa-user"></i>
                   </Link>
               </div>
 
@@ -149,6 +149,7 @@ export default AppLayout;
 
 
        
+
 
 
 
