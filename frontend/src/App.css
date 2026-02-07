@@ -1,0 +1,253 @@
+body{
+    margin: -30px;
+    background: linear-gradient(90deg,rgba(221, 168, 83, 0.64) 0%, rgba(245, 238, 220, 1) 53%, rgba(221, 168, 83, 0.69) 100%);
+}
+
+.header{
+  background: linear-gradient(0deg,rgba(95, 139, 76, 1) 0%, rgba(57, 115, 13, 1) 100%);  
+  height: 100px;
+}
+
+.searchBox{
+    margin-top: 30px;
+    justify-self: center;
+}
+
+.searchBox input {
+    width: 12cm;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+}
+.searchBox input:focus {
+    outline-color: #f4a43b;
+}
+
+.searchButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+  
+.searchButton i:hover {
+    color: #f4a43b;
+}
+
+.icon{
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    height: 130px;
+    width: 170px;
+}
+
+.header-right{
+  position: fixed;
+  top: 15px;
+  right: 10px;
+}
+
+.menuButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 40px;
+    width: 40px;
+}
+
+.menuButton:hover{
+    background-color: #f4a43b;
+    border-radius: 50px;
+}
+
+.menuButton:hover i {
+    color: white;
+} 
+
+.logoutButton{
+  background: #f4a43b;
+  color: white;
+  border-radius: 15px;
+  border-color: #ffbd66;
+}
+
+.logoutButton:hover{
+  background: rgb(255, 255, 128);
+  color: black;
+  border-color: rgb(255, 255, 158);
+}
+
+.cards{
+    margin: 10px; 
+    margin-top: 1vh;
+    margin-left: 2vh;
+    padding: 20px;  
+    width: 250px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    text-align: center;
+}
+
+.borrow_button{
+  margin: 1rem;
+  background-color: green;
+  border-color: rgb(1, 169, 1);
+  color: white;
+  width: 90px;
+  height: 30px;
+}
+
+.borrow_button:hover{
+  background-color: yellow;
+  color: black;
+  border-color: white;
+}
+
+.return_button{
+  margin: 1rem;
+  background-color: green;
+  border-color: rgb(1, 169, 1);
+  color: white;
+  width: 90px;
+  height: 30px;
+}
+
+.return_button:hover{
+  background-color: yellow;
+  color: black;
+  border-color: white;
+}
+
+.bookcover{
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+  
+.dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 208, 148);
+    position: absolute;
+    top: 60px; /* Ρύθμισε ανάλογα */
+    right: 10px;
+    border: 1px solid #f1b791;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdownMenu a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdownMenu a:hover {
+    color: rgb(205, 134, 1);
+  }
+
+  .textBody{
+    margin-top: 90px;
+    margin-left: 100px; 
+  }
+
+  .dropdown{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.838);
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    width: 470px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  .dropdown_row{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #c9fffa;
+  }
+
+  .dropdown_row:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .dropdown-cover {
+    width: 40px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .dropdown-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 220px;
+    display: block;
+  }
+
+  hr {
+    margin-left: 5px;
+    width: 300px;
+  }
+
+  .results-container{
+    justify-self: center;
+    padding: 20px; 
+    margin-top: 5vh;
+    
+  }
+
+  .textlength{
+    width: 500px;
+  }
+
+  .booklist-container {
+    margin: 40px;
+    padding: 10px;
+  }
+  
+  .booklist-scroll {
+    display: flex;
+    flex-wrap: wrap;      
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 10px;
+      
+  }
+
+  .user{
+    justify-self: center;
+    display: flex;
+  }
+
+  .label{ 
+    margin-right: 60px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(82, 0, 0);
+    font-weight: bolder;
+  }
+
+  .userButton {
+    position: fixed;
+    top:35px;
+    right: 130px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .header-right{
+    top:30px;
+    display: flex;
+  }
+
+  
